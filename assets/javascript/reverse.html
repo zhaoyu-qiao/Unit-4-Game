@@ -1,0 +1,14 @@
+<script>
+    function reversWord(word) {
+        let splitWord = word.split(" ");
+        let reverseWord = splitWord.reverse();
+        var joinWord = reverseWord.join(" ")
+        if (joinWord === word) {
+            console.log("this is a word as same as it is reversed.");
+        } else {
+            console.log("this is not a word as same as it is reversed.")
+        }
+    }
+    reversWord("mom");
+
+</script>
